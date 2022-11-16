@@ -29,7 +29,9 @@
                 <td> <?php echo $ver['nombre']; ?> </td>
                 <td><?php echo $ver['region']; ?></td>
                 <td><?php echo $ver['comida']; ?></td>
-                <td></td>
+                <td>
+                <a href="./editar.php?idp=<?php echo $ver['id']; ?>">Actualizar</a>
+                </td>
                 <td>
                     <a href="./backend/eliminar.php?idp=<?php echo $ver['id']; ?>">Eliminar</a>
                 </td>
